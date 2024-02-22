@@ -1,4 +1,3 @@
-import React from "react";
 import "./search-items-style.css";
 import { DollarIcon } from "../../../assets";
 

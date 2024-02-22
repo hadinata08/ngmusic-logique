@@ -1,0 +1,45 @@
+.search-container {
+  background-image: linear-gradient(153deg, #712bda, #a45deb 100%);
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.search-button {
+  margin: 15px 0 0;
+  padding: 13px 116px 11px 117px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #fff;
+  position: relative;
+}
+
+.search-input {
+  text-align: center; /* Mengatur teks ke tengah */
+}
+
+/* Membuat placeholder menjadi teks tengah */
+.search-input::placeholder {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.43px;
+  color: #64748b;
+}

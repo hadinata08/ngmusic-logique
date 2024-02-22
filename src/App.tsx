@@ -1,8 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useCallback, useState } from "react";
 import Result from "./pages/Result";
 import Search from "./pages/Search";
-import Loading from "./components/loading";
 import { MusicDataType } from "./types/MusicDataTypes";
 
 const App = () => {
